@@ -1,0 +1,123 @@
+.auth-page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.auth-box {
+  background-color: var(--card-light);
+  width: 100%;
+  max-width: 440px;
+  padding: 36px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  border: 1px solid var(--border-light);
+}
+
+.dark .auth-box {
+  background-color: var(--card-dark);
+  border-color: var(--border-dark);
+}
+
+.auth-box h2 {
+  font-size: 1.6rem;
+  margin-bottom: 6px;
+  color: var(--navy-dark);
+}
+
+.dark .auth-box h2 {
+  color: #ffffff;
+}
+
+.auth-subtitle {
+  color: var(--muted-light);
+  font-size: 0.9rem;
+  margin-bottom: 24px;
+}
+
+.dark .auth-subtitle {
+  color: var(--muted-dark);
+}
+
+.auth-field {
+  margin-bottom: 16px;
+}
+
+.auth-field label {
+  display: block;
+  font-size: 0.88rem;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.auth-field input,
+.auth-field select {
+  width: 100%;
+  padding: 11px 14px;
+  border-radius: 8px;
+  border: 1px solid var(--border-light);
+  background-color: var(--bg-light);
+  color: var(--text-light);
+  font-size: 0.95rem;
+}
+
+.dark .auth-field input,
+.dark .auth-field select {
+  background-color: var(--bg-dark);
+  color: var(--text-dark);
+  border-color: var(--border-dark);
+}
+
+.auth-error {
+  background: #fee2e2;
+  color: #b91c1c;
+  padding: 10px 14px;
+  border-radius: 8px;
+  font-size: 0.88rem;
+  margin-bottom: 16px;
+}
+
+.auth-submit-btn {
+  width: 100%;
+  padding: 12px;
+  background-color: var(--cyan-primary);
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  margin-top: 8px;
+}
+
+.auth-submit-btn:hover {
+  background-color: var(--cyan-hover);
+}
+
+.auth-footer-links {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+.auth-link-btn {
+  background: none;
+  border: none;
+  color: var(--cyan-primary);
+  font-weight: 700;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.auth-back-btn {
+  display: block;
+  width: 100%;
+  margin-top: 14px;
+  background: none;
+  border: none;
+  color: var(--muted-light);
+  cursor: pointer;
+  font-size: 0.88rem;
+}
